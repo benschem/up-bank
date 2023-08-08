@@ -1,7 +1,9 @@
+import config from './config.js';
+
 export function IncomeBreakdown() {
   const baseUrl = "https://api.up.com.au/api/v1";
   const endPoint = "/";
-  const accessToken = "";
+  const accessToken = config.apiKey;
 
   const categories = []
 
